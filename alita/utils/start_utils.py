@@ -74,7 +74,7 @@ async def gen_start_kb(q: Message or CallbackQuery):
             [
                 (f"🌐 {(tlang(q, 'start.language_btn'))}", "chlang"),
                 (
-                    f" {(tlang(q, 'start.Channel'))}",
+                    f"🗃️ {(tlang(q, 'start.source_code'))}",
                     "milnabotchannel",
                     "url",
                 ),
