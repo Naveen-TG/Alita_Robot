@@ -68,11 +68,11 @@ except Exception as ef:
     sysexit(1)
 
 LOGGER.info("------------------------")
-LOGGER.info("|      Alita_Robot     |")
+LOGGER.info("|      MilnaRobot     |")
 LOGGER.info("------------------------")
 LOGGER.info(f"Version: {Config.VERSION}")
 LOGGER.info(f"Owner: {str(Config.OWNER_ID)}")
-LOGGER.info("Source Code: https://github.com/DivideProjects/Alita_Robot\n")
+LOGGER.info("Channel: milnabotchannel\n")
 
 # Account Related
 BOT_TOKEN = Config.BOT_TOKEN
