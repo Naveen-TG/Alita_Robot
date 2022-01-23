@@ -50,7 +50,7 @@ strings:
 
         Note:
         a) Currently it supports only text!
-        b) Alita must be an admin to greet and goodbye users.
+        b) Milna must be an admin to greet and goodbye users.
 
         Admin Commands:
         × /setwelcome <reply> : Sets a custom welcome message.
@@ -138,7 +138,7 @@ strings:
       help: |-
         Formatting
 
-        Alita supports a large number of formatting options to make your messages more expressive. Take a look by clicking the buttons below!
+        Milna supports a large number of formatting options to make your messages more expressive. Take a look by clicking the buttons below!
     fun:
       main: "Fun"
       help: |-
@@ -401,7 +401,7 @@ strings:
       %%%
       how are you</code>
       This will randomly choose between sending the first message, "hello", or the second message, "how are you".
-      Use this to make Alita feel a bit more customised! (only works in filters/notes)
+      Use this to make Milna feel a bit more customised! (only works in filters/notes)
 
       Example welcome message::
       - Every time a new user joins, they'll be presented with one of the three messages shown here.
@@ -516,7 +516,7 @@ strings:
     check_help: "Please check help on how to use this this command."
     close_btn: Close
     commands_available: |-
-      Hey There! My name is Alita.
+      Hey There! My name is Milna.
       I'm here to help you manage your groups!
       Commands available:
        × /start: Start the bot
@@ -603,7 +603,7 @@ strings:
   start:
     add_chat_btn: "Add me to a chat!"
     commands_btn: Commands & Help
-    group: "I'm alive :3"
+    group: "I'm alive 🧚‍♀️"
     info_page: |-
       • @MilnaRobot
 
