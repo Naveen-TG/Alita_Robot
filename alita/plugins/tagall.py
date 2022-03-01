@@ -6,7 +6,7 @@ from pyrogram.tl.functions.channels import GetParticipantRequest
 from pyrogram.tl.types import ChannelParticipantAdmin
 from pyrogram.tl.types import ChannelParticipantCreator
 
-from Alita import pyrogram as client
+from Alita import telthn as client
 
 spam_chats = []
 
