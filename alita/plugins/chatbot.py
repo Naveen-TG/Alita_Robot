@@ -3,12 +3,12 @@ import re
 import os
 import html
 import requests
-import Yuriko.modules.sql.kuki_sql as sql
+import Alita.modules.sql.kuki_sql as sql
 
 from time import sleep
 from telegram import ParseMode
-from Yuriko import dispatcher, updater, SUPPORT_CHAT
-from Yuriko.modules.log_channel import gloggable
+from Alita import dispatcher, updater, SUPPORT_CHAT
+from Alita.modules.log_channel import gloggable
 from telegram import (CallbackQuery, Chat, MessageEntity, InlineKeyboardButton,
                       InlineKeyboardMarkup, Message, ParseMode, Update, Bot, User)
 
