@@ -609,7 +609,7 @@ strings:
 
       <b>Version:</b> <i>{version}</i>
 
-      <b>Developers:</b> [Divkix](https://github.com/Divkix)
+      <b>Developers:</b> [Althaf](https://github.com/muhammedalthaf174)
       <b>Owner:</b> [{Owner}](tg://user?id={ID})
     support_group: Support
     language_btn: Language
@@ -619,7 +619,7 @@ strings:
       I'm here to help you manage your groups!
       Hit /help to find out more about how to use me in my full potential!
 
-      Join my [Support Channel](http://t.me/milnabotchannel) to get information on all the latest updates.
+      Join my [Support Channel](http://t.me/tezzasupportgroup) to get information on all the latest updates.
     public_help: "Press the button below to get help for <i>{help_option}</i>"
     source_code: "Updates"
   utils:
