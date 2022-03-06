@@ -1,12 +1,12 @@
 import asyncio
 
-from telethon import events
-from telethon.errors import UserNotParticipantError
-from telethon.tl.functions.channels import GetParticipantRequest
-from telethon.tl.types import ChannelParticipantAdmin
-from telethon.tl.types import ChannelParticipantCreator
+from pyrogram import events
+from pyrogram.errors import UserNotParticipantError
+from pyrogram.tl.functions.channels import GetParticipantRequest
+from pyrogram.tl.types import ChannelParticipantAdmin
+from pyrogram.tl.types import ChannelParticipantCreator
 
-from alita import telethn as client
+from alita import pyrogram as client
 
 spam_chats = []
 
