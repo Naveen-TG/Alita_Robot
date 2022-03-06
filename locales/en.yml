@@ -516,7 +516,7 @@ strings:
     check_help: "Please check help on how to use this this command."
     close_btn: Close
     commands_available: |-
-      Hey There! My name is Milna [🧚‍♂].(https://te.legra.ph/file/fdd4730f27038b6a25a82.jpg)
+      Hey There! My name is Milna [🧚‍♂](https://te.legra.ph/file/fdd4730f27038b6a25a82.jpg)
       I'm here to help you manage your groups!
       Commands available:
        × /start: Start the bot
@@ -615,7 +615,7 @@ strings:
     language_btn: Language
     pm_for_help: "Contact me in PM to get the list of possible commands."
     private: |-
-      Hey there! My name is 𝖒𝖎𝖑𝖓𝖆 [🧚‍♂].(https://te.legra.ph/file/dce2e3e278de5ca987bfc.jpg)
+      Hey there! My name is 𝖒𝖎𝖑𝖓𝖆 [🧚‍♂](https://te.legra.ph/file/dce2e3e278de5ca987bfc.jpg)
       I'm here to help you manage your groups!
       Hit /help to find out more about how to use me in my full potential!
 
