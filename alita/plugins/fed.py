@@ -2360,7 +2360,7 @@ def get_chat(chat_id, chat_data):
 
 def fed_owner_help(update: Update, context: CallbackContext):
     update.effective_message.reply_text(
-        """*Fed Owner Only:*
+        """*👑 Fed Owner Only:*
  • `/newfed <fed_name>`*:* Creates a Federation, One allowed per user
  • `/renamefed <fed_id> <new_fed_name>`*:* Renames the fed id to a new name
  • `/delfed <fed_id>`*:* Delete a Federation, and any information related to it. Will not cancel blocked users
@@ -2378,7 +2378,7 @@ def fed_owner_help(update: Update, context: CallbackContext):
 
 def fed_admin_help(update: Update, context: CallbackContext):
     update.effective_message.reply_text(
-        """*Fed Admins:*
+        """*🔱 Fed Admins:*
  • `/fban <user> <reason>`*:* Fed bans a user
  • `/unfban <user> <reason>`*:* Removes a user from a fed ban
  • `/fedinfo <fed_id>`*:* Information about the specified Federation
