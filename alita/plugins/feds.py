@@ -6,8 +6,8 @@ import time
 import uuid
 from io import BytesIO
 
-import Tianabot.modules.sql.feds_sql as sql
-from Tianabot import (
+import alita.modules.sql.feds_sql as sql
+from alita import (
     EVENT_LOGS,
     LOGGER,
     SUPPORT_CHAT,
@@ -17,15 +17,15 @@ from Tianabot import (
     WOLVES,
     dispatcher,
 )
-from Tianabot.modules.disable import DisableAbleCommandHandler
-from Tianabot.modules.helper_funcs.alternate import send_message
-from Tianabot.modules.helper_funcs.chat_status import is_user_admin
-from Tianabot.modules.helper_funcs.extraction import (
+from alita.modules.disable import DisableAbleCommandHandler
+from alita.modules.helper_funcs.alternate import send_message
+from alita.modules.helper_funcs.chat_status import is_user_admin
+from alita.modules.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
 )
-from Tianabot.modules.helper_funcs.string_handling import markdown_parser
+from alita.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,
