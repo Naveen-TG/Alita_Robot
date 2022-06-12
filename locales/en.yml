@@ -511,12 +511,12 @@ strings:
 
       All the fund would be put into my services such as database, storage and hosting!
 
-      You can donate by contacting my owner here: @DivideProjectsBot
+      You can donate by contacting my owner here: @Althafser
     back_btn: Back
     check_help: "Please check help on how to use this this command."
     close_btn: Close
     commands_available: |-
-      Hey There! My name is Milna [🧚‍♂](https://te.legra.ph/file/fdd4730f27038b6a25a82.jpg)
+      Hey There! My name is Tezza
       I'm here to help you manage your groups!
       Commands available:
        × /start: Start the bot
@@ -603,19 +603,18 @@ strings:
   start:
     add_chat_btn: "Add me to a chat!"
     commands_btn: Commands & Help
-    group: "I'm alive 🧚‍♀️"
+    group: "ʏᴇs! ɪ'ᴍ ᴀʟɪᴠᴇ 😌"
     info_page: |-
       • @MilnaRobot
 
       <b>Version:</b> <i>{version}</i>
-
-      <b>Developers:</b> [Althaf](https://github.com/muhammedalthaf174)
+    
       <b>Owner:</b> [{Owner}](tg://user?id={ID})
     support_group: Support
     language_btn: Language
     pm_for_help: "Contact me in PM to get the list of possible commands."
     private: |-
-      Hey there! My name is 𝖒𝖎𝖑𝖓𝖆 [🧚‍♂](https://te.legra.ph/file/fdd4730f27038b6a25a82.jpg)
+      Hey there! My name is Tezza
       I'm here to help you manage your groups!
       Hit /help to find out more about how to use me in my full potential!
 
