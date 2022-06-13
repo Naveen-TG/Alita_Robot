@@ -218,17 +218,6 @@ async def save_gdbye(_, m: Message):
     return
 
 
-@Alita.on_message(command("resetgoodbye") & admin_filter & bot_admin_filter)
-async def resetgb(_, m: Message):
-    db = Greetings(m.chat.id)
-    if m and not m.from_user:
-        return
-    text = "Sad to see you leaving {first}.\nTake Care!"
-    db.set_goodbye_text(text)
-    await m.reply_text("Ok Done!")
-    return
-
-
 @Alita.on_message(command("resetwelcome") & admin_filter & bot_admin_filter)
 async def resetwlcm(_, m: Message):
     db = Greetings(m.chat.id)
