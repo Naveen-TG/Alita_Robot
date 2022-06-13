@@ -62,5 +62,4 @@ def stats(update: Update, context: CallbackContext):
         parse_mode=ParseMode.HTML, 
         disable_web_page_preview=True
    )
-    await replymsg.edit_text(rply, parse_mode="html")
-    return
+    
