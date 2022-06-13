@@ -52,7 +52,7 @@ async def get_stats(_, m: Message):
     warns_db = Warns
     warns_settings_db = WarnSettings
 
-@sudo_plus
+
 def stats(update: Update, context: CallbackContext):
     stats = "<b>╔═━「 Current Tezza Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
