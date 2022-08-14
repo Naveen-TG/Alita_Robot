@@ -59,7 +59,7 @@ class Alita(Client):
         super().__init__(
             "Alita_Robot",
             bot_token=BOT_TOKEN,
-            plugins=dict(root=f"{name}.plugins", exclude=NO_LOAD),
+            plugins=dict(root=f"{name}/plugins"),
             api_id=APP_ID,
             api_hash=API_HASH,
             workers=WORKERS,
